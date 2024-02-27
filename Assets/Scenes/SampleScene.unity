@@ -437,6 +437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876259839}
   - component: {fileID: 1876259838}
+  - component: {fileID: 1876259840}
   m_Layer: 0
   m_Name: New Sub Scene
   m_TagString: Untagged
@@ -480,6 +481,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1876259840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876259837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4885d002f136eab45a5742fe1771644c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2727972077266075601, guid: c51b7bf40b4f7f34a8799d4406e832e4, type: 3}
+  spawnRate: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

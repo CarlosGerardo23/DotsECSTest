@@ -9,7 +9,10 @@ public partial struct MyEntitySystem : ISystem
     {
         foreach (RefRW<MyEntity> myEntity in SystemAPI.Query<RefRW<MyEntity>>())
         {
-            Debug.Log($"My Entity Position: {myEntity.ValueRO.position}" );
+            Debug.Log($"My Entity Position: {myEntity.ValueRO.position}");
+            Vector3 newPosition = Vector3.zero;
+            myEntity.ValueRW.position = newPosition;
+             Debug.Log($"My Entity Position: {myEntity.ValueRO.position}");
         }
     }
 }
